@@ -1,0 +1,84 @@
+
+body {
+  background-color:white;
+  padding:60px;
+}
+
+.header {
+  text-align: left;
+  font-size: 15px;
+  font-family:serif;
+  padding: 40px;
+  color: brown;
+}
+
+/* Styling the navbar and the links */
+.nav-bar {
+  text-align: right;
+  font-size: 25px;
+  font-family:serif;
+  padding: 14px 16px;
+  color: brown;
+}
+
+a:link {
+  color: green;
+}
+
+a:hover {
+  color: green;
+}
+
+h3 {
+  padding-top:10px;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  font-family:serif;
+  font-weight: bold;
+  padding: 20px;
+  color: brown;
+}
+.intro-column {
+  float: left;
+  float: left;
+  width: 45%;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-column {
+  float: left;
+  width: 35%;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  .more-info{
+    float: center;
+    width: 50%;
+    padding:30px;
+    height: 300px;
+  }
+
+/* Got this online - To make the page responsive*/
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
